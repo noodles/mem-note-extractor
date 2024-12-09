@@ -4,6 +4,7 @@ The uploaded document use three dashes to delimit each of the markdown pages it 
 
 Below is an example of some markdown text in between the 3 equals signs
 
+```
 ===
 
  ---
@@ -41,7 +42,7 @@ As Bokonon says, "Peculiar travel suggestions are dancing lessons from God."
 Cat's Cradle - Kurt Vonnegut
 
 ===
-
+```
 Given this input the app should create 5 markdown files.
 The file name should be the same as the first line in that page but no longer than 25 characters.
 
